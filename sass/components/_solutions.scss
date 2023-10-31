@@ -1,0 +1,56 @@
+.solutions {
+  &__background {
+    background-image: linear-gradient(to bottom, #2f303a66, #2f303a66),
+      url(../images/back-title.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.title {
+  &__container {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  &__text {
+    font-family: "Roboto", sans-serif;
+    color: var(--ligt-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 6%;
+    text-align: center;
+    white-space: pre-line;
+
+    @media screen and (max-width: 480px) {
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 42px;
+      letter-spacing: 1.56px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.custom {
+  &__btn {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--brand-color);
+    color: var(--ligt-color);
+    font-weight: 700;
+    cursor: pointer;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 25px auto;
+    display: block;
+  }
+}

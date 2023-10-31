@@ -1,0 +1,81 @@
+.port__btns {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.port__btns button {
+  background-color: rgba(245, 244, 250, 1);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.port__btns :hover {
+  background-color: rgba(33, 150, 243, 1);
+  color: white;
+  transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.centrar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 30px;
+}
+
+.flex__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card__container {
+  margin: 15px 8px 35px;
+  margin-bottom: 35px;
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card__container:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card__container:hover .card__animation {
+  transform: translateY(0%);
+}
+
+.card__image {
+  position: relative;
+  overflow: hidden;
+}
+
+.card__animation {
+  font-family: "Roboto", sans-serif;
+  padding: 63px 24px;
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  height: 294px;
+  width: inherit;
+  background-color: var(--brand-color);
+  letter-spacing: 0.09em;
+  color: #ffffff;
+  transform: translateY(105%);
+  transition: transform 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card__title {
+  padding: 0 24px 0;
+}

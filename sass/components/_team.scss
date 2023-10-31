@@ -1,0 +1,39 @@
+.team {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 0;
+}
+
+.team__back {
+  background-color: #f5f4fa;
+  margin-top: 100px;
+  margin-bottom: 65px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.team__fix {
+  margin: 0 10px;
+}
+
+.team__redes {
+  margin-bottom: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  fill: #afb1b8;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team__redes:hover {
+  background-color: var(--brand-color);
+  fill: var(--ligt-color);
+  color: var(--ligt-color);
+  border-radius: 50%;
+  transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+}

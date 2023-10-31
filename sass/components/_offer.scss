@@ -1,0 +1,26 @@
+.offer {
+  &__hero {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+    @media screen and (max-width: 480px) {
+      display: block;
+    }
+  }
+  &__svg {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    @media screen and (min-width: 481px) {
+      align-items: center;
+    }
+  }
+
+  &__mobile {
+    @media screen and (min-width: 481px) {
+      width: 750px;
+    }
+  }
+}

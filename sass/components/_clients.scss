@@ -1,0 +1,23 @@
+.client {
+  margin: 0 10px 155px;
+  cursor: pointer;
+  fill: rgba(175, 177, 184, 1);
+  background-color: transparent;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 5px;
+}
+
+.client:hover {
+  fill: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  border-radius: 5px;
+  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client__back {
+  background-color: var(--ligt-color);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
